@@ -1,0 +1,24 @@
+/* Custom CSS Variables untuk Warna Pastel & Soft Yellow */
+:root {
+    --pastel-pink: #ffd1dc;
+    --soft-yellow: #fff9db;
+    --accent-pink: #ff85a1;
+    --accent-yellow: #fde047;
+}
+
+/* Custom Utility Classes */
+.bg-pastel-pink {
+    background-color: var(--pastel-pink);
+}
+
+.bg-soft-yellow {
+    background-color: var(--soft-yellow);
+}
+
+.text-accent-pink {
+    color: var(--accent-pink);
+}
+
+.border-pastel-pink {
+    border-color: var(--pastel-pink);
+}
