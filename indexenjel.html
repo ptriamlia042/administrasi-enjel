@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio | Minimalist & Creative</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- Link ke File CSS Eksternal -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-[#faf9f6] text-gray-800 font-sans antialiased">
+
+    <!-- Navigation Bar -->
+    <header class="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-md border-b border-gray-100 shadow-xs">
+        <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+            <a href="#hero" class="text-lg font-bold tracking-wider text-gray-900">
+                PORT<span class="text-accent-pink">FOLIO.</span>
+            </a>
+            <nav class="hidden md:flex space-x-8 text-sm font-medium text-gray-600">
+                <a href="#about" class="hover:text-accent-pink transition">About Me</a>
+                <a href="#experience" class="hover:text-accent-pink transition">Experience</a>
+                <a href="#projects" class="hover:text-accent-pink transition">Projects</a>
+                <a href="#skills" class="hover:text-accent-pink transition">Skills</a>
+                <a href="#contact" class="hover:text-accent-pink transition">Contact</a>
+            </nav>
+            <a href="#contact" class="px-4 py-2 text-xs font-semibold uppercase tracking-wider bg-pastel-pink text-gray-800 rounded-full hover:bg-accent-pink hover:text-white transition shadow-sm">
+                Let's Talk
+            </a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="min-h-screen flex items-center justify-center pt-24 pb-16 px-6 bg-gradient-to-br from-soft-yellow/40 via-[#faf9f6] to-pastel-pink/35">
+        <div class="max-w-4xl mx-auto text-center">
+            <span class="inline-block px-4 py-1.5 mb-6 text-xs font-bold tracking-widest text-gray-700 uppercase bg-soft-yellow rounded-full shadow-xs border border-yellow-200">
+                ✨ Wonderful Journey in Tech & Design
+            </span>
+            <h1 class="text-4xl md:text-6xl font-extrabold text-gray-900 tracking-tight leading-tight mb-6">
+                Hi, I'm <span class="bg-gradient-to-r from-pink-400 to-amber-400 bg-clip-text text-transparent">Frontend Developer</span> & UI/UX Designer
+            </h1>
+            <p class="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto mb-10 leading-relaxed">
+                Saya merancang antarmuka digital yang estetik, intuitif, dan membangun pengalaman web modern yang responsif untuk pengguna.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center items-center gap-4">
+                <a href="#projects" class="w-full sm:w-auto px-8 py-3.5 text-sm font-bold text-gray-900 bg-pastel-pink rounded-full hover:bg-pink-300 transition shadow-sm">
+                    Lihat Proyek Saya
+                </a>
+                <a href="#contact" class="w-full sm:w-auto px-8 py-3.5 text-sm font-bold text-gray-700 bg-white border border-gray-200 rounded-full hover:bg-gray-50 transition shadow-xs">
+                    Hubungi Saya
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="py-24 px-6 bg-white">
+        <div class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-12 gap-12 items-center">
+            <div class="md:col-span-5 flex justify-center">
+                <div class="w-64 h-64 rounded-2xl bg-gradient-to-tr from-soft-yellow to-pastel-pink p-2 shadow-lg rotate-2 hover:rotate-0 transition duration-300">
+                    <div class="w-full h-full bg-gray-100 rounded-xl flex items-center justify-center text-gray-400 font-medium">
+                        [Foto Profil]
+                    </div>
+                </div>
+            </div>
+            <div class="md:col-span-7">
+                <h2 class="text-xs font-bold uppercase tracking-widest text-pink-500 mb-2">Tentang Saya</h2>
+                <h3 class="text-2xl md:text-3xl font-bold text-gray-900 mb-6">Menciptakan Solusi Digital dengan Estetika & Fungsionalitas</h3>
+                <p class="text-gray-600 leading-relaxed mb-6">
+                    Halo! Saya adalah seorang pengembang front-end dan desainer UI/UX yang berfokus pada pembuatan halaman web yang bersih, cepat, dan ramah pengguna. Saya menyukai perpaduan warna lembut dan tata letak minimalis yang menghadirkan pengalaman visual yang menyenangkan.
+                </p>
+                <div class="grid grid-cols-2 gap-4 text-sm">
+                    <div class="p-4 rounded-xl bg-soft-yellow/50 border border-yellow-100">
+                        <span class="block font-bold text-gray-900 text-lg">3+ Tahun</span>
+                        <span class="text-gray-600">Pengalaman Belajar & Proyek</span>
+                    </div>
+                    <div class="p-4 rounded-xl bg-pastel-pink/30 border border-pink-100">
+                        <span class="block font-bold text-gray-900 text-lg">20+ Proyek</span>
+                        <span class="text-gray-600">Website & Desain UI/UX</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="py-24 px-6 bg-[#faf9f6]">
+        <div class="max-w-4xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-xs font-bold uppercase tracking-widest text-pink-500 mb-2">Riwayat</h2>
+                <h3 class="text-3xl font-bold text-gray-900">Pengalaman & Pendidikan</h3>
+            </div>
+            <div class="space-y-8 border-l-2 border-pink-200 pl-6 ml-4 md:ml-0">
+                <div class="relative">
+                    <div class="absolute -left-[31px] top-1.5 w-4 h-4 rounded-full bg-pastel-pink border-4 border-white shadow-xs"></div>
+                    <span class="text-xs font-semibold text-pink-500 uppercase tracking-wide">2024 - Sekarang</span>
+                    <h4 class="text-lg font-bold text-gray-900 mt-1">Frontend Developer & UI/UX Freelancer</h4>
+                    <p class="text-sm font-medium text-gray-600">Klien Independen</p>
+                    <p class="text-gray-600 mt-2 text-sm">Membangun kustomisasi situs web responsif menggunakan Tailwind CSS dan merancang wireframe aplikasi berbasis seluler serta web.</p>
+                </div>
+                <div class="relative">
+                    <div class="absolute -left-[31px] top-1.5 w-4 h-4 rounded-full bg-soft-yellow border-4 border-white shadow-xs"></div>
+                    <span class="text-xs font-semibold text-yellow-600 uppercase tracking-wide">2023 - 2024</span>
+                    <h4 class="text-lg font-bold text-gray-900 mt-1">Web Development Intern</h4>
+                    <p class="text-sm font-medium text-gray-600">Tech Digital Agency</p>
+                    <p class="text-gray-600 mt-2 text-sm">Bertanggung jawab dalam konversi desain Figma ke kode HTML/CSS, optimasi kecepatan halaman, serta penerapan desain UI yang mobile-friendly.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section (Grid Card) -->
+    <section id="projects" class="py-24 px-6 bg-white">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-xs font-bold uppercase tracking-widest text-pink-500 mb-2">Portofolio</h2>
+                <h3 class="text-3xl font-bold text-gray-900">Proyek Unggulan</h3>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Card 1 -->
+                <div class="bg-[#faf9f6] rounded-2xl p-6 border border-gray-100 shadow-xs hover:shadow-md transition flex flex-col justify-between">
+                    <div>
+                        <div class="w-full h-48 rounded-xl bg-pastel-pink/40 mb-4 flex items-center justify-center text-gray-400 font-medium text-sm">
+                            Preview Proyek 1
+                        </div>
+                        <span class="text-xs font-semibold text-pink-500 uppercase tracking-wide">UI/UX & Web</span>
+                        <h4 class="text-xl font-bold text-gray-900 mt-1 mb-2">Aplikasi Layanan Cetak</h4>
+                        <p class="text-gray-600 text-sm mb-4">Aplikasi seluler untuk pemesanan layanan percetakan dokumen secara daring dengan alur interaksi yang sederhana.</p>
+                    </div>
+                    <div class="flex gap-2 pt-2">
+                        <span class="px-2.5 py-1 bg-white text-xs font-medium rounded-md border border-gray-200">Tailwind</span>
+                        <span class="px-2.5 py-1 bg-white text-xs font-medium rounded-md border border-gray-200">Figma</span>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="bg-[#faf9f6] rounded-2xl p-6 border border-gray-100 shadow-xs hover:shadow-md transition flex flex-col justify-between">
+                    <div>
+                        <div class="w-full h-48 rounded-xl bg-soft-yellow/60 mb-4 flex items-center justify-center text-gray-400 font-medium text-sm">
+                            Preview Proyek 2
+                        </div>
+                        <span class="text-xs font-semibold text-yellow-600 uppercase tracking-wide">Website Bisnis</span>
+                        <h4 class="text-xl font-bold text-gray-900 mt-1 mb-2">Eco-Friendly Brand Site</h4>
+                        <p class="text-gray-600 text-sm mb-4">Situs web pemasaran produk ramah lingkungan berbasis kustomisasi tema minimalis dan tata letak elegan.</p>
+                    </div>
+                    <div class="flex gap-2 pt-2">
+                        <span class="px-2.5 py-1 bg-white text-xs font-medium rounded-md border border-gray-200">HTML/CSS</span>
+                        <span class="px-2.5 py-1 bg-white text-xs font-medium rounded-md border border-gray-200">JavaScript</span>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="bg-[#faf9f6] rounded-2xl p-6 border border-gray-100 shadow-xs hover:shadow-md transition flex flex-col justify-between">
+                    <div>
+                        <div class="w-full h-48 rounded-xl bg-pink-100/50 mb-4 flex items-center justify-center text-gray-400 font-medium text-sm">
+                            Preview Proyek 3
+                        </div>
+                        <span class="text-xs font-semibold text-pink-500 uppercase tracking-wide">Dashboard UI</span>
+                        <h4 class="text-xl font-bold text-gray-900 mt-1 mb-2">Analytics Dashboard</h4>
+                        <p class="text-gray-600 text-sm mb-4">Antarmuka dasbor analitik interaktif yang menampilkan grafik dan tabel data ringkas untuk pengelolaan pengguna.</p>
+                    </div>
+                    <div class="flex gap-2 pt-2">
+                        <span class="px-2.5 py-1 bg-white text-xs font-medium rounded-md border border-gray-200">Tailwind</span>
+                        <span class="px-2.5 py-1 bg-white text-xs font-medium rounded-md border border-gray-200">Alpine.js</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section (Badges) -->
+    <section id="skills" class="py-24 px-6 bg-[#faf9f6]">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-xs font-bold uppercase tracking-widest text-pink-500 mb-2">Keahlian</h2>
+            <h3 class="text-3xl font-bold text-gray-900 mb-12">Keterampilan & Teknologi</h3>
+            <div class="flex flex-wrap justify-center gap-3">
+                <span class="px-5 py-2.5 bg-pastel-pink text-gray-800 text-sm font-semibold rounded-full shadow-xs">HTML5 / Semantic Markup</span>
+                <span class="px-5 py-2.5 bg-soft-yellow text-gray-800 text-sm font-semibold rounded-full shadow-xs">CSS3 / Tailwind CSS</span>
+                <span class="px-5 py-2.5 bg-pastel-pink text-gray-800 text-sm font-semibold rounded-full shadow-xs">JavaScript (ES6+)</span>
+                <span class="px-5 py-2.5 bg-soft-yellow text-gray-800 text-sm font-semibold rounded-full shadow-xs">UI/UX Design</span>
+                <span class="px-5 py-2.5 bg-pastel-pink text-gray-800 text-sm font-semibold rounded-full shadow-xs">Figma & Wireframing</span>
+                <span class="px-5 py-2.5 bg-soft-yellow text-gray-800 text-sm font-semibold rounded-full shadow-xs">Responsive Design</span>
+                <span class="px-5 py-2.5 bg-pastel-pink text-gray-800 text-sm font-semibold rounded-full shadow-xs">Git & GitHub</span>
+                <span class="px-5 py-2.5 bg-soft-yellow text-gray-800 text-sm font-semibold rounded-full shadow-xs">WordPress Customization</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-24 px-6 bg-white">
+        <div class="max-w-3xl mx-auto text-center">
+            <h2 class="text-xs font-bold uppercase tracking-widest text-pink-500 mb-2">Kontak</h2>
+            <h3 class="text-3xl font-bold text-gray-900 mb-4">Mari Terhubung</h3>
+            <p class="text-gray-600 mb-8">Punya proyek menarik atau ingin berdiskusi? Jangan ragu untuk mengirimkan pesan melalui email atau sosial media di bawah ini.</p>
+            <a href="mailto:email@example.com" class="inline-block px-8 py-4 bg-soft-yellow hover:bg-yellow-200 text-gray-900 font-bold rounded-full shadow-sm transition">
+                halo@example.com
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-8 px-6 bg-[#faf9f6] border-t border-gray-100 text-center text-sm text-gray-500">
+        <p>&copy; 2026 Portofolio. Dibuat dengan cinta menggunakan Tailwind CSS.</p>
+    </footer>
+
+</body>
+</html>
